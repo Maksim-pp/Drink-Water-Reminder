@@ -1,9 +1,12 @@
 import { FC } from "react"
+import { IButtonProps } from "src/shared/lib"
+import styles from './styles.module.scss'
 
-export const Button:FC = () => {
+
+export const Button:FC<IButtonProps> = ({children}) => {
   return (
     <>
-        <button></button>
+        <button className={styles.button}>{children}</button>
     </>
   )
 }
