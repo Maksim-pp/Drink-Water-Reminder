@@ -1,0 +1,41 @@
+.block__history {
+    &__header {
+        font-weight: bold;
+    }
+    &__item {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        width: 280px;
+    }
+    &__message {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    &__icons {
+        width: auto;
+        height: 20px;
+    }
+    
+}
+.message {
+    position: absolute;
+    z-index: 10;
+    margin-top: 210px;
+    margin-left: 50px;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 119, 255);
+    text-shadow:  5px 5px 5px #fff;
+
+    opacity:1;  
+    animation: flickerAnimation 1.5s infinite;
+
+    @keyframes flickerAnimation { /* flame pulses */
+        0%   { opacity:0;}
+        50%  {opacity: 1;}
+        100% { opacity:0;}
+    }
+}

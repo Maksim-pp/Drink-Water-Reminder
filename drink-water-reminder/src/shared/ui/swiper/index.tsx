@@ -13,10 +13,10 @@ export const SwiperSlider: FC = () => {
       modules={[Navigation, Autoplay]}
       autoplay={{ delay: 3500 }}
       onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}>
+      onSlideChange={() => console.log()}>
       {
         slides.map((el) => (
-          <SwiperSlide key={el.id} className={styles.swiperr__slide}>
+          <SwiperSlide key={el.id} className={styles.swiper__slide}>
             {
               el.slide
             }
