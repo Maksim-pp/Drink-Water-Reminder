@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Maksim-pp.github.io/Drink-Water-Reminder",
+  "homepage": "https://Maksim-pp.github.io/Drink-Water-Reminder/drink-water-reminder",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
