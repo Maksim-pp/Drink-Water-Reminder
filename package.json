@@ -1,6 +1,6 @@
 {
   "name": "drink-water-reminder",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://Maksim-pp.github.io/Drink-Water-Reminder",
